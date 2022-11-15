@@ -1,6 +1,5 @@
 export interface ordedetail
 {
-    
     userid?:any,
     date:string,
     name:string,
