@@ -8,7 +8,6 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import {MatSelectModule} from '@angular/material/select';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatNativeDateModule} from '@angular/material/core';
-
 @NgModule({
   declarations: [
     AdminlayoutComponent
