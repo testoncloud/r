@@ -21,7 +21,6 @@ export class AddcustomerComponent implements OnInit {
   ngOnInit(): void {
     this.showcustomers();
     this.addcustomer = new FormGroup({
-
       name: new FormControl('', Validators.required),
       address: new FormControl('', Validators.required),
       phone: new FormControl('', [Validators.required, Validators.maxLength(10)])
